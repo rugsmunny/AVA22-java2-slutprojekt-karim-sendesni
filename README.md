@@ -19,5 +19,6 @@ Production program Java/Swing
     - ProductionState saved to .ser file
  
 UML Diagram:
+
 https://github.com/rugsmunny/AVA22-java2-slutprojekt-karim-sendesni/assets/49041363/4d3c677f-6847-4126-b584-716c905c7567
 
