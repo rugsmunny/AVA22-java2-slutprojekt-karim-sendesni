@@ -105,26 +105,18 @@ public class RegulatorGUI extends JPanel implements ActionListener, PropertyChan
                 }
             }
             case "SAVE" -> {
-                try {
-                    pH.saveListToFile("_prod");
-                    cH.saveListToFile("_cons");
-                    iH.saveListToFile("_items");
-                } catch (IOException ex) {
-                    throw new RuntimeException(ex);
-                }
-                 // avKommentera om du vill kolla i konsol att antal stämmer
+                pH.saveListToFile("_prod");
+                cH.saveListToFile("_cons");
+                iH.saveListToFile("_items");
+                // avKommentera om du vill kolla i konsol att antal stämmer
                 System.out.println("Sizes at SAVE | P -> " + pH.size() + " | C -> " + cH.size() + " | I -> " + iH.size());
             }
 
 
             case "LOAD" -> {
-                try {
-                    pH.loadListFromFile("_prod");
-                    cH.loadListFromFile("_cons");
-                    iH.loadListFromFile("_items");
-                } catch (IOException | ClassNotFoundException ex) {
-                    throw new RuntimeException(ex);
-                }
+                pH.loadListFromFile("_prod");
+                cH.loadListFromFile("_cons");
+                iH.loadListFromFile("_items");
                 // avKommentera om du vill kolla i konsol att antal stämmer
                 System.out.println("Sizes at LOAD | P -> " + pH.size() + " | C -> " + cH.size() + " | I -> " + iH.size());
             }
