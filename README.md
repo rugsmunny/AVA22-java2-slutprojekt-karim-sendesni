@@ -18,8 +18,6 @@ Production program Java/Swing
     - All logInfo saved to .txt file
     - ProductionState saved to .ser file
  
-  - UML Diagram:
- 
-  <img>
-  ![avaJava drawio](https://github.com/rugsmunny/AVA22-java2-slutprojekt-karim-sendesni/assets/49041363/4d3c677f-6847-4126-b584-716c905c7567)
-  </img>
+UML Diagram:
+https://github.com/rugsmunny/AVA22-java2-slutprojekt-karim-sendesni/assets/49041363/4d3c677f-6847-4126-b584-716c905c7567
+
